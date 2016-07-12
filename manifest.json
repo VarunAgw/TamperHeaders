@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["util.js", "bg.js", "tamper.js"]
+    },
+    "name": "TamperHeaders",
+    "version": "2.0.0",
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
